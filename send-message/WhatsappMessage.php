@@ -28,8 +28,8 @@ namespace WhatsappMessage;
 
 
         private function setDefaultValue(){
-            $this->phone_number_id = 101482536130698;
-            $this->receiver_number = 916205881326;
+            $this->phone_number_id = 349539874919788;
+            $this->receiver_number = +5545999555612;
             $this->language = 'en_US';
             $this->header_image_link  = 'https://rapidexworldwide.com/assets/logo_Rapidex.jpg';
             $this->template_name = 'hello_world';
