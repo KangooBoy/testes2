@@ -14,14 +14,14 @@ use Netflie\WhatsAppCloudApi\Message\OptionsList\Action;
 
 // Instantiate the WhatsAppCloudApi super class.
 $whatsapp_cloud_api = new WhatsAppCloudApi([
-    'from_phone_number_id' => '',
-    'access_token' => '',
+    'from_phone_number_id' => '349539874919788',
+    'access_token' => '426408367218096',
 ]);
 
 try {
 
-    $whatsapp_cloud_api->sendTemplate('916205881326', 'hello_world', 'en_US');
-   // $whatsapp_cloud_api->sendTextMessage('916205881326', 'hello its workinng ?');
+    $whatsapp_cloud_api->sendTemplate('+1 555 101 4744', 'hello_world', 'en_US');
+    $whatsapp_cloud_api->sendTextMessage('+5545999555612', 'hello its workinng ?');
 
     /*$document_link = 'https://i.ytimg.com/vi/0jIQK3GvmDk/hqdefault.jpg';
     $link_id = new LinkID($document_link);
