@@ -3,7 +3,7 @@ include("WhatsappMessage.php");
 use \WhatsappMessage\WhatsappMessage as WP;
 $wp = new WP();
 $wp->template_name = "rapidex_picked";
-$numbers = array(916205881326,916205881326);
+$numbers = array(5545999555612,5545999555612);
 foreach ($numbers as $n){
     $wp->body_param = ["Sajid Ali"];
     $wp->receiver_number = $n;
