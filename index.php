@@ -20,7 +20,7 @@ $whatsapp_cloud_api = new WhatsAppCloudApi([
 
 try {
 
-    $whatsapp_cloud_api->sendTemplate('+1 555 101 4744', 'hello_world', 'en_US');
+    $whatsapp_cloud_api->sendTemplate('+5545999555612', 'hello_world', 'en_US');
     $whatsapp_cloud_api->sendTextMessage('+5545999555612', 'hello its workinng ?');
 
     /*$document_link = 'https://i.ytimg.com/vi/0jIQK3GvmDk/hqdefault.jpg';
